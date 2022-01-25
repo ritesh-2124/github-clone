@@ -1,0 +1,89 @@
+body{
+    background-color: #0d1117;
+}
+
+#main_div{
+    display: flex;
+ 
+    color: rgba(255, 255, 255, 0.801);
+}
+#user_profile{
+    flex: 4;
+    height: 700px;
+}
+#user_repos{
+    flex: 9;
+   height: 550px;
+}
+#user_dp img{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 50%;
+}
+#user_dp{
+    height: 600px;
+    width: 300px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+    margin-bottom: 0;
+    
+}
+#user_name{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+#edit_pro{
+    width: 100%;
+    padding: 8px 0;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #2d3136;
+    color: white;
+    border: transparent;
+}
+#followers{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+#follower_icon{
+    margin-top: 17px;
+}
+
+#user_repos{
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-template-rows:  repeat( 5, 100px);
+    padding-top: 150px;
+   grid-gap: 20px;
+   overflow: auto;
+  
+}
+#user_repos>div{
+     border: 1px solid rgb(56, 54, 54);
+     border-radius: 10px;
+     padding: 0 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 10px;
+     display: flex;
+     justify-content: space-between;
+     color: #4a97e4;
+}
+#user_repos>div>p{
+  background-color: #0d1117;
+  border: 1px solid rgb(56, 54, 54);
+  height: 16px;
+  font-size: 13px;
+  width: 45px;
+  color: rgba(192, 192, 192, 0.842);
+  text-align: center;
+  border-radius: 20px;
+}
